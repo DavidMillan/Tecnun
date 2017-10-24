@@ -17,27 +17,26 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
  <div class="w3-bar w3-theme-d2 w3-left-align w3-large">
   <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
   <a href="#" class="w3-bar-item w3-button w3-padding-large w3-theme-d4"><i class="fa fa-home w3-margin-right"></i>Inicio</a>
-  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="News"><i class="fa fa-globe"></i></a>
-  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Account Settings"><i class="fa fa-user"></i></a>
-  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Messages"><i class="fa fa-envelope"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Novedades"><i class="fa fa-globe"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Preferencias de la cuenta"><i class="fa fa-user"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Mensajes"><i class="fa fa-envelope"></i></a>
   <div class="w3-dropdown-hover w3-hide-small">
-    <button class="w3-button w3-padding-large" title="Notifications"><i class="fa fa-bell"></i><span class="w3-badge w3-right w3-small w3-green">3</span></button>     
+    <button class="w3-button w3-padding-large" title="Notificaciones"><i class="fa fa-bell"></i><span class="w3-badge w3-right w3-small w3-green">3</span></button>     
     <div class="w3-dropdown-content w3-card-4 w3-bar-block" style="width:300px">
       <a href="#" class="w3-bar-item w3-button">Nueva petición de amistad</a>
       <a href="#" class="w3-bar-item w3-button">John Doe ha escrito en tu perfíl</a>
-      <a href="#" class="w3-bar-item w3-button">Jane likes your post</a>
+      <a href="#" class="w3-bar-item w3-button">A Jane le gusta tu post</a>
     </div>
   </div>
-  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-padding-large w3-hover-white" title="My Account"><img src="/w3images/avatar2.png" class="w3-circle" style="height:25px;width:25px" alt="Avatar"></a>
  </div>
 </div>
 
 <!-- Navbar on small screens -->
 <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium w3-large">
-  <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 1</a>
-  <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 2</a>
-  <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
-  <a href="#" class="w3-bar-item w3-button w3-padding-large">My Profile</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large">Bandeja de entrada</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large">Amigos</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large">Libros</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large">Mi Perfil</a>
 </div>
 
 <!-- Page Container -->
@@ -49,12 +48,12 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
       <!-- Profile -->
       <div class="w3-card w3-round w3-white">
         <div class="w3-container">
-         <h4 class="w3-center">My Profile</h4>
+         <h4 class="w3-center">Libreria Yale</h4>
          <p class="w3-center"><img src="images/avatar3.png" class="w3-circle" style="height:106px;width:106px" alt="Avatar"></p>
          <hr>
-         <p><i class="fa fa-pencil fa-fw w3-margin-right w3-text-theme"></i> Designer, UI</p>
-         <p><i class="fa fa-home fa-fw w3-margin-right w3-text-theme"></i> London, UK</p>
-         <p><i class="fa fa-birthday-cake fa-fw w3-margin-right w3-text-theme"></i> April 1, 1988</p>
+         <p><i class="fa fa-pencil fa-fw w3-margin-right w3-text-theme"></i> Editar Perfil</p>
+         <p><i class="fa fa-home fa-fw w3-margin-right w3-text-theme"></i> Donostia, San Sebastián</p>
+         <p><i class="fa fa-birthday-cake fa-fw w3-margin-right w3-text-theme"></i> Sept 24, 1995</p>
         </div>
       </div>
       <br>
@@ -62,35 +61,38 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
       <!-- Accordion -->
       <div class="w3-card w3-round">
         <div class="w3-white">
-          <button onclick="myFunction('Demo1')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-circle-o-notch fa-fw w3-margin-right"></i> My Groups</button>
+          <button onclick="myFunction('Demo1')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-circle-o-notch fa-fw w3-margin-right"></i> Mis Grupos</button>
           <div id="Demo1" class="w3-hide w3-container">
-            <p>Some text..</p>
+            <p>Clase</p>
+			<p>Universidad</p>
+			<p>Trabajo</p>
           </div>
-          <button onclick="myFunction('Demo2')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-calendar-check-o fa-fw w3-margin-right"></i> My Events</button>
+          <button onclick="myFunction('Demo2')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-calendar-check-o fa-fw w3-margin-right"></i> Mis Eventos</button>
           <div id="Demo2" class="w3-hide w3-container">
-            <p>Some other text..</p>
+            <p>Escribir Novela</p>
+			<p>Leer Reseñas</p>
           </div>
-          <button onclick="myFunction('Demo3')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-users fa-fw w3-margin-right"></i> My Photos</button>
+          <button onclick="myFunction('Demo3')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-users fa-fw w3-margin-right"></i> Mis Libros</button>
           <div id="Demo3" class="w3-hide w3-container">
          <div class="w3-row-padding">
          <br>
            <div class="w3-half">
-             <img src="/w3images/lights.jpg" style="width:100%" class="w3-margin-bottom">
+             <img src="images/lights.jpg" style="width:100%" class="w3-margin-bottom">
            </div>
            <div class="w3-half">
-             <img src="/w3images/nature.jpg" style="width:100%" class="w3-margin-bottom">
+             <img src="images/nature.jpg" style="width:100%" class="w3-margin-bottom">
            </div>
            <div class="w3-half">
-             <img src="/w3images/mountains.jpg" style="width:100%" class="w3-margin-bottom">
+             <img src="images/mountains.jpg" style="width:100%" class="w3-margin-bottom">
            </div>
            <div class="w3-half">
-             <img src="/w3images/forest.jpg" style="width:100%" class="w3-margin-bottom">
+             <img src="images/forest.jpg" style="width:100%" class="w3-margin-bottom">
            </div>
            <div class="w3-half">
-             <img src="/w3images/nature.jpg" style="width:100%" class="w3-margin-bottom">
+             <img src="images/nature.jpg" style="width:100%" class="w3-margin-bottom">
            </div>
            <div class="w3-half">
-             <img src="/w3images/fjords.jpg" style="width:100%" class="w3-margin-bottom">
+             <img src="images/fjords.jpg" style="width:100%" class="w3-margin-bottom">
            </div>
          </div>
           </div>
@@ -101,19 +103,19 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
       <!-- Interests --> 
       <div class="w3-card w3-round w3-white w3-hide-small">
         <div class="w3-container">
-          <p>Interests</p>
+          <p>De Interes</p>
           <p>
-            <span class="w3-tag w3-small w3-theme-d5">News</span>
-            <span class="w3-tag w3-small w3-theme-d4">W3Schools</span>
-            <span class="w3-tag w3-small w3-theme-d3">Labels</span>
-            <span class="w3-tag w3-small w3-theme-d2">Games</span>
-            <span class="w3-tag w3-small w3-theme-d1">Friends</span>
-            <span class="w3-tag w3-small w3-theme">Games</span>
-            <span class="w3-tag w3-small w3-theme-l1">Friends</span>
-            <span class="w3-tag w3-small w3-theme-l2">Food</span>
-            <span class="w3-tag w3-small w3-theme-l3">Design</span>
-            <span class="w3-tag w3-small w3-theme-l4">Art</span>
-            <span class="w3-tag w3-small w3-theme-l5">Photos</span>
+            <span class="w3-tag w3-small w3-theme-d5">Noticias</span>
+            <span class="w3-tag w3-small w3-theme-d4">Política</span>
+            <span class="w3-tag w3-small w3-theme-d3">Actualidad</span>
+            <span class="w3-tag w3-small w3-theme-d2">Historias</span>
+            <span class="w3-tag w3-small w3-theme-d1">Amigos</span>
+            <span class="w3-tag w3-small w3-theme">Juegos</span>
+            <span class="w3-tag w3-small w3-theme-l1">Deportes</span>
+            <span class="w3-tag w3-small w3-theme-l2">Comida</span>
+            <span class="w3-tag w3-small w3-theme-l3">Diseño</span>
+            <span class="w3-tag w3-small w3-theme-l4">Arte</span>
+            <span class="w3-tag w3-small w3-theme-l5">Fotos</span>
           </p>
         </div>
       </div>
@@ -125,7 +127,7 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
           <i class="fa fa-remove"></i>
         </span>
         <p><strong>Hey!</strong></p>
-        <p>People are looking at your profile. Find out who.</p>
+        <p>Tienes nuevos libros para leer.</p>
       </div>
     
     <!-- End Left Column -->
@@ -138,9 +140,9 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
         <div class="w3-col m12">
           <div class="w3-card w3-round w3-white">
             <div class="w3-container w3-padding">
-              <h6 class="w3-opacity">Social Media template by w3.css</h6>
-              <p contenteditable="true" class="w3-border w3-padding">Status: Feeling Blue</p>
-              <button type="button" class="w3-button w3-theme"><i class="fa fa-pencil"></i>  Post</button> 
+              <h6 class="w3-opacity">Social Media de Libreria Yale</h6>
+              <p contenteditable="true" class="w3-border w3-padding">Estado: Leyendo La Reina Traidora</p>
+              <button type="button" class="w3-button w3-theme"><i class="fa fa-pencil"></i>  Publicar</button> 
             </div>
           </div>
         </div>
@@ -149,9 +151,9 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
       <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
         <img src="images/avatar2.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
         <span class="w3-right w3-opacity">1 min</span>
-        <h4>John Doe</h4><br>
+        <h4>David Millán</h4><br>
         <hr class="w3-clear">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>No se que poner así que escribiré lo primero que se me venga a la cabeza.</p>
           <div class="w3-row-padding" style="margin:0 -16px">
             <div class="w3-half">
               <img src="images/lights.jpg" style="width:100%" alt="Northern Lights" class="w3-margin-bottom">
@@ -161,29 +163,29 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
           </div>
         </div>
         <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i>  Like</button> 
-        <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i>  Comment</button> 
+        <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i>  Comentar</button> 
       </div>
       
       <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
         <img src="images/avatar5.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
         <span class="w3-right w3-opacity">16 min</span>
-        <h4>Jane Doe</h4><br>
+        <h4>Rolando Neal Yale</h4><br>
         <hr class="w3-clear">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Sigo sin saber que poner aquí.</p>
         <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i>  Like</button> 
-        <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i>  Comment</button> 
+        <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i>  Comentar</button> 
       </div>  
 
       <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
         <img src="images/avatar6.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
         <span class="w3-right w3-opacity">32 min</span>
-        <h4>Angie Jane</h4><br>
+        <h4>Julen Sanz</h4><br>
         <hr class="w3-clear">
-        <p>Have you seen this?</p>
+        <p>¿Has visto esto?</p>
         <img src="images/nature.jpg" style="width:100%" class="w3-margin-bottom">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Mira que libro más bonito.</p>
         <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i>  Like</button> 
-        <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i>  Comment</button> 
+        <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i>  Comentar</button> 
       </div> 
       
     <!-- End Middle Column -->
@@ -193,20 +195,20 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
     <div class="w3-col m2">
       <div class="w3-card w3-round w3-white w3-center">
         <div class="w3-container">
-          <p>Upcoming Events:</p>
-          <img src="images/forest.jpg" alt="Forest" style="width:100%;">
-          <p><strong>Holiday</strong></p>
-          <p>Friday 15:00</p>
-          <p><button class="w3-button w3-block w3-theme-l4">Info</button></p>
+          <p>Proximos eventos:</p>
+          <img src="images/calendar.png" alt="Forest" style="width:100%;">
+          <p><strong>Fiesta</strong></p>
+          <p>Viernes 15:00</p>
+          <p><button class="w3-button w3-block w3-theme-l4">Información</button></p>
         </div>
       </div>
       <br>
       
       <div class="w3-card w3-round w3-white w3-center">
         <div class="w3-container">
-          <p>Friend Request</p>
+          <p>Petición De Amistad</p>
           <img src="images/avatar6.png" alt="Avatar" style="width:50%"><br>
-          <span>Jane Doe</span>
+          <span>Dr. Nicolás Serrano Bárcena</span>
           <div class="w3-row w3-opacity">
             <div class="w3-half">
               <button class="w3-button w3-block w3-green w3-section" title="Accept"><i class="fa fa-check"></i></button>
@@ -219,10 +221,6 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
       </div>
       <br>
       
-      <div class="w3-card w3-round w3-white w3-padding-16 w3-center">
-        <p>ADS</p>
-      </div>
-      <br>
       
       <div class="w3-card w3-round w3-white w3-padding-32 w3-center">
         <p><i class="fa fa-bug w3-xxlarge"></i></p>
@@ -238,14 +236,6 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
 </div>
 <br>
 
-<!-- Footer -->
-<footer class="w3-container w3-theme-d3 w3-padding-16">
-  <h5>Footer</h5>
-</footer>
-
-<footer class="w3-container w3-theme-d5">
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-</footer>
  
 <script>
 // Accordion
